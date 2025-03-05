@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+.desktop-only {
+    background-color: lightblue;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    display: block; 
+}
+
+.mobile-only {
+    background-color: lightcoral;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    display: none; 
+}
+
+@media (max-width: 600px) {
+    .desktop-only {
+        display: none;
+    }
+    .mobile-only {
+        display: block;
+    }
+}
