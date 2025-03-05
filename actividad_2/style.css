@@ -1,0 +1,22 @@
+.box {
+    background-color: blue;
+    width: 100%;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+
+@media (max-width: 800px) {
+    .box {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media (min-width: 1200px) {
+    .box {
+        width: 50%;
+        background-color: green;
+    }
+}
